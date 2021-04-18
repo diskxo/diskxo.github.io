@@ -1,0 +1,16 @@
+.navbar-brand {
+    margin-left: 1%;
+}
+
+.banner {
+    background: url(./assets/icon.png);
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #212529;
+    padding: 250px 0 200px;
+    h1 {
+        text-transform: uppercase;
+    }
+}
