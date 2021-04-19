@@ -27,11 +27,13 @@
 .navbar-brand {
     margin-left: 3%;
 }
+
+
 /*--Header section--*/
+
 .banner {
-    
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center;
     background-color: #212529;
@@ -57,16 +59,25 @@
     }
 }
 
-/*Cards section*/
 
-.cards-section{
-    
+/*--Cards section--*/
+
+.cards-section {
     .card {
         margin: 7%;
-        
-      }
+    }
 }
 
-footer{
+
+/*-- Web Developing Content --*/
+
+.webdev-content {
+    padding: 200px;
+}
+
+
+/*-- Footer --*/
+
+footer {
     margin-top: 20vh;
 }

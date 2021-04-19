@@ -28,11 +28,9 @@
   background-color: #212529;
   padding: 250px 0 200px;
 }
-
 .banner h1 {
   text-transform: uppercase;
 }
-
 .banner .btn-banner {
   display: inline-block;
   text-decoration: none;
@@ -45,7 +43,6 @@
   font-weight: 700;
   border-radius: 5px;
 }
-
 .banner .btn-banner:hover {
   background-color: #1d2024;
   color: White;
@@ -65,4 +62,3 @@
 footer {
   margin-top: 20vh;
 }
-/*# sourceMappingURL=main.css.map */
