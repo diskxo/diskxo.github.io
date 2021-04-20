@@ -2,141 +2,248 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap");
 body {
-  font-family: "Ubuntu",sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
+
 
 /*--Scrollbar--*/
+
+
 /*--width--*/
+
 ::-webkit-scrollbar {
-  width: 12px;
+    width: 12px;
 }
+
 
 /*--Track--*/
+
 ::-webkit-scrollbar-track {
-  background-color: #212529;
+    background-color: #212529;
 }
+
 
 /*--Handle--*/
+
 ::-webkit-scrollbar-thumb {
-  background: #2769ac;
+    background: #2769ac;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #2f80d1;
-  }
-
-/*--Navbar Section--*/
-.navbar-brand {
-  margin-left: 3%;
 }
 
+
+/*--Navbar Section--*/
+
+.navbar-brand {
+    margin-left: 3%;
+}
+
+
 /*--Header section--*/
+
 .banner {
-  position: relative;
-  min-height: 90vh;
-  background-size: cover;
-  background-position: center;
-  background-color: #212529;
-  padding: 250px 0 200px;
+    position: relative;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #212529;
+    padding: 250px 0 200px;
 }
 
 .banner h1 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .banner .btn-banner {
-  display: inline-block;
-  text-decoration: none;
-  margin: 1em 0 0;
-  background-color: #fff;
-  color: #212529;
-  padding: 20px;
-  text-transform: uppercase;
-  border: none;
-  font-weight: 700;
-  border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 1em 0 0;
+    background-color: #fff;
+    color: #212529;
+    padding: 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
 }
 
 .banner .btn-banner:hover {
-  background-color: #1d2024;
-  color: White;
+    background-color: #1d2024;
+    color: White;
 }
 
 
 /*-- Footer --*/
+
 footer {
-  margin-top: 20vh;
+    margin-top: 20vh;
 }
 
-h1, h2, h3, h4, .navbar-brand {
-  font-family: "Ubuntu",sans-serif;
+h1,
+h2,
+h3,
+h4,
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
 }
 
 section {
-  padding: 25px 0;
+    padding: 25px 0;
 }
 
 #home {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .card,
 .project {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  border: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border: none;
 }
 
-.card:hover, .card:focus, .project:hover, .project:focus {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+.card:hover,
+.card:focus,
+.project:hover,
+.project:focus {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-deck {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .scroll-header {
-  background: #fff;
-  -webkit-box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
-          box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
+    background: #fff;
+    -webkit-box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
+    box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
 }
 
 .project {
-  background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
-  text-align: center;
+    background: #fff none repeat scroll 0 0;
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .project h4 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .project p {
-  margin: 40px;
-  margin-top: 20px;
+    margin: 40px;
+    margin-top: 20px;
 }
 
 .project,
 .text-column {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
-.project img, .text-column
-img {
-  height: 60px;
-  margin-bottom: 30px;
-  width: 60px;
+.project img,
+.text-column img {
+    height: 60px;
+    margin-bottom: 30px;
+    width: 60px;
 }
 
 .invisible-link {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .invisible-link:hover {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+.divider {
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.3)
+}
+
+.projects {
+    margin-top: 5vh;
+}
+
+#about {
+    padding-top: 98px;
+    padding-bottom: 101px;
+    background-color: #212529;
+}
+
+#about .triangle-right {
+    margin-top: 95px;
+    width: 0;
+    height: 0;
+    border-top: 259px solid transparent;
+    border-left: 470px solid #d6c6b2;
+    border-bottom: 259px solid transparent;
+}
+
+#about .triangle-right img {
+    position: absolute;
+    left: -1px;
+    top: 81px;
+    width: 74%;
+}
+
+.fa-play {
+    font-size: 100px;
+}
+
+#about .p-first {
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    margin-bottom: 47px;
+    margin-top: 12px;
+}
+
+#about .social-link-text {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#about .about-link {
+    padding-left: 0px;
+}
+
+#about .about-link li {
+    display: inline-block;
+}
+
+#about .about-link li a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #d6c6b2;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #d6c6b2;
+    transition: all .3s;
+}
+
+#about .about-link li a i:hover {
+    color: #222222;
+    background: #d6c6b2;
+    border-color: #d6c6b2;
+}
+
+#about .about-img {
+    position: relative;
+}
+
+.btn-danger {
+    border-radius: 0;
+    padding: 10px 20px;
+}
