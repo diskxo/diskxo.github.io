@@ -6,17 +6,14 @@ body {
 }
 
 /*--Scrollbar--*/
-/*--width--*/
 ::-webkit-scrollbar {
   width: 12px;
 }
 
-/*--Track--*/
 ::-webkit-scrollbar-track {
   background-color: #242735;
 }
 
-/*--Handle--*/
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(94.15deg, #8094FC 0%, #71A8FF 47.92%, #60BDF7 100%);
 }
@@ -44,7 +41,15 @@ body {
   margin-right: 3%;
 }
 
-/*--Header section--*/
+h1,
+h2,
+h3,
+h4,
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*--Banner section--*/
 .banner {
   position: relative;
   min-height: 80vh;
@@ -92,25 +97,13 @@ body {
   color: White;
 }
 
-/*-- Footer --*/
-footer {
-  margin-top: 20vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-.navbar-brand {
-  font-family: "Ubuntu", sans-serif;
-}
-
 section {
   padding: 25px 0;
 }
 
-#home {
-  padding-top: 50px;
+/*--Skills, Projects Sections--*/
+.projects {
+  margin-top: 5vh;
 }
 
 .card,
@@ -177,17 +170,7 @@ section {
   text-decoration: none;
 }
 
-.divider {
-  height: 2px;
-  width: 80%;
-  margin: 0 auto;
-  background-color: rgba(128, 128, 128, 0.3);
-}
-
-.projects {
-  margin-top: 5vh;
-}
-
+/*--About Me Section--*/
 #about {
   padding-top: 98px;
   padding-bottom: 101px;
@@ -203,40 +186,92 @@ section {
   border-bottom: 259px solid transparent;
 }
 
-#about .triangle-right img {
-  position: absolute;
-  left: -1px;
-  top: 81px;
-  width: 74%;
-}
-
-.fa-play {
-  font-size: 100px;
-}
-
-#about .p-first {
-  margin-bottom: 30px;
-}
-
 #about h2 {
   margin-bottom: 47px;
   margin-top: 12px;
-}
-
-#about .social-link-text {
-  margin-top: 50px;
-  margin-bottom: 25px;
 }
 
 #about .about-img {
   position: relative;
 }
 
-.btn-danger {
-  border-radius: 0;
-  padding: 10px 20px;
-  background: linear-gradient(94.15deg, #8094FC 0%, #71A8FF 47.92%, #60BDF7 100%);
-  border-radius: 10px;
+/*--Contact Me Section--*/
+.contact-me {
+  background-color: #414561;
+  padding-bottom: 20vh;
+  padding-top: 10vh;
+}
+
+.contact-me .social-card {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   border: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-me .social-card h4 {
+  color: white;
+}
+
+.contact-me .social-card img {
+  height: 60px;
+  margin-bottom: 30px;
+  width: 60px;
+}
+
+.contact-me .social-card .twitter {
+  border-radius: 5px;
+  padding: 30px 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  background-color: #26a6d1;
+}
+
+.contact-me .social-card .mail {
+  border-radius: 5px;
+  padding: 30px 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  background-color: #f5584b;
+}
+
+.contact-me .social-card .github {
+  border-radius: 5px;
+  padding: 30px 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  background-color: black;
+}
+
+.contact-me .social-card .anilist {
+  border-radius: 5px;
+  padding: 30px 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  background-color: #19212e;
+}
+
+.contact-me .social-card:hover,
+.contact-me .social-card:focus {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 990px) {
+  .contact-me .social-card {
+    margin: 20px;
+  }
+}
+
+/*-- Footer --*/
+footer {
+  margin-top: 20vh;
 }
 /*# sourceMappingURL=main.css.map */
