@@ -79,9 +79,9 @@ h4,
      }
 
      .btn-banner:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
+       background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
      }
     
 
@@ -205,8 +205,9 @@ section {
 }
 
 
-#about .about-img {
+#about .about-img .shape{
     position: relative;
+    max-height: 50%;
 }
 
 

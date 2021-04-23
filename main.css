@@ -206,8 +206,9 @@ section {
   margin-top: 12px;
 }
 
-#about .about-img {
+#about .about-img .shape {
   position: relative;
+  max-height: 50%;
 }
 
 /*--Contact Me Section--*/
