@@ -5,6 +5,47 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+/*--General selection--*/
+::-moz-selection {
+  background: #565c88;
+}
+
+::selection {
+  background: #565c88;
+}
+
+p::-moz-selection {
+  color: white;
+}
+
+p::selection {
+  color: white;
+}
+
+b::-moz-selection {
+  color: white;
+}
+
+b::selection {
+  color: white;
+}
+
+h4::-moz-selection {
+  color: white;
+}
+
+h4::selection {
+  color: white;
+}
+
+h2::-moz-selection {
+  color: white;
+}
+
+h2::selection {
+  color: white;
+}
+
 /*--Scrollbar--*/
 ::-webkit-scrollbar {
   width: 12px;
